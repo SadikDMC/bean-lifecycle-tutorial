@@ -23,7 +23,6 @@ public class User {
     public void demoUser() {
         System.out.println("Invoking the user method");
     }
-
     @PreDestroy
     public void predestroy(){
         System.out.println("Bean is about to destroy, in predestroy method");
