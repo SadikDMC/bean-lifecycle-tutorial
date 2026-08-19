@@ -1,5 +1,6 @@
 package com.learn.bean_lifecycle_tutorial;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -12,4 +13,10 @@ public class User {
     public User(){
         System.out.println("Initializing user Object");
     }
+
+    @PostConstruct
+    public void initialize(){
+        System.out.println("Beans have been initiazed and dependencies have been injected");
+    }
+    
 }
