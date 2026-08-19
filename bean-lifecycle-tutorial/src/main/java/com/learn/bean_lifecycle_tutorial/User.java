@@ -16,7 +16,11 @@ public class User {
 
     @PostConstruct
     public void initialize(){
-        System.out.println("Beans have been initiazed and dependencies have been injected");
+        System.out.println("Beans have been initialized and dependencies have been injected");
     }
-    
+
+    public void demoUser() {
+        System.out.println("Invoking the user method");
+    }
+
 }
