@@ -19,3 +19,8 @@ Step 4: Perform any task before bean is used in application
 Step 5: Use the bean in the application (Invoke methods of bean to perform the task)
 <img width="1642" height="101" alt="image" src="https://github.com/user-attachments/assets/b07fd000-5320-490a-bb5a-47ee34d849c7" />
 
+Step 6: Perform any task before bean is getting destroyed
+
+<img width="1683" height="125" alt="image" src="https://github.com/user-attachments/assets/ecde7c51-996d-4e9d-9311-9409b850cee3" />
+
+
