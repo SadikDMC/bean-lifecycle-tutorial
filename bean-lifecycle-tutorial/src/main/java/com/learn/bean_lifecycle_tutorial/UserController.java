@@ -12,7 +12,8 @@ public class UserController {
     User user;
 
     @GetMapping("/user")
-    public void invoke(){
+    public String invoke(){
         user.demoUser();
+        return "hi sadik";
     }
 }

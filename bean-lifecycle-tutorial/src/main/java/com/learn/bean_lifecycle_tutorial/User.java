@@ -1,6 +1,7 @@
 package com.learn.bean_lifecycle_tutorial;
 
 import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -21,6 +22,11 @@ public class User {
 
     public void demoUser() {
         System.out.println("Invoking the user method");
+    }
+
+    @PreDestroy
+    public void predestroy(){
+        System.out.println("Bean is about to destroy, in predestroy method");
     }
 
 }
